@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-02T18:29:18 IDT" name="Suite" finished-at="2021-06-02T18:31:17 IDT" duration-ms="118664">
+    <groups>
+      <group name="bonding">
+        <method signature="LoginTest.f()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" name="f" class="aaa.bbb.FinalProject.tests.LoginTest"/>
+        <method signature="SignupWebTest.f()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" name="f" class="aaa.bbb.FinalProject.tests.SignupWebTest"/>
+      </group> <!-- bonding -->
+    </groups>
+    <test started-at="2021-06-02T18:29:18 IDT" name="Test" finished-at="2021-06-02T18:31:17 IDT" duration-ms="118664">
+      <class name="aaa.bbb.FinalProject.tests.LoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" started-at="2021-06-02T18:30:25 IDT" name="beforeClass" finished-at="2021-06-02T18:30:56 IDT" duration-ms="30904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" started-at="2021-06-02T18:30:56 IDT" name="beforeMethod" finished-at="2021-06-02T18:30:56 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" started-at="2021-06-02T18:30:56 IDT" name="f" finished-at="2021-06-02T18:31:12 IDT" duration-ms="16602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" started-at="2021-06-02T18:31:12 IDT" name="afterMethod" finished-at="2021-06-02T18:31:12 IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:aaa.bbb.FinalProject.tests.LoginTest@62e7f11d]" started-at="2021-06-02T18:31:12 IDT" name="afterClass" finished-at="2021-06-02T18:31:17 IDT" duration-ms="4751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- aaa.bbb.FinalProject.tests.LoginTest -->
+      <class name="aaa.bbb.FinalProject.tests.SignupWebTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" started-at="2021-06-02T18:29:19 IDT" name="beforeClass" finished-at="2021-06-02T18:29:44 IDT" duration-ms="25093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" started-at="2021-06-02T18:29:44 IDT" name="beforeMethod" finished-at="2021-06-02T18:29:44 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" started-at="2021-06-02T18:29:44 IDT" name="f" finished-at="2021-06-02T18:30:23 IDT" duration-ms="39238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" started-at="2021-06-02T18:30:23 IDT" name="afterMethod" finished-at="2021-06-02T18:30:23 IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:aaa.bbb.FinalProject.tests.SignupWebTest@3972a855]" started-at="2021-06-02T18:30:23 IDT" name="afterClass" finished-at="2021-06-02T18:30:25 IDT" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- aaa.bbb.FinalProject.tests.SignupWebTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

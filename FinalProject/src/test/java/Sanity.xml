@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="aaa.bbb.FinalProject.tests.AddItemToCartTest"/>
+      <class name="aaa.bbb.FinalProject.tests.SignupWebTest"/>
+      <class name="aaa.bbb.FinalProject.tests.LoginTest"/>
+      <class name="aaa.bbb.FinalProject.tests.MyContactUsTest"/>
+      <class name="aaa.bbb.FinalProject.tests.RemoveItemCarTest"/>
+      <class name="aaa.bbb.FinalProject.tests.SearchItemInBrowserTest"/>
+      <class name="aaa.bbb.FinalProject.tests.SignUpForSalesTest"/>
+      <class name="aaa.bbb.FinalProject.tests.SignupWebTest"/>
+    </classes>
+    
+        <groups>	
+				<run>	
+   					 <include name="bonding" />	
+        		</run>	
+       		</groups>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
