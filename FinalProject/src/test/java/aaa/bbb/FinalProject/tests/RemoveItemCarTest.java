@@ -9,7 +9,7 @@ public class RemoveItemCarTest extends BaseTest{
  @Test 	
   public void f() throws InterruptedException {
 	  
-	//  AddItemToCartPage at =new AddItemToCartPage(driver);
+//	 AddItemToCartPage at =new AddItemToCartPage(driver);
 	//  at.addItem();
 	  RemoveItemCartPage rcg = new RemoveItemCartPage(driver);
 	  rcg.removeItem();

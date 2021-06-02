@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="aaa.bbb.FinalProject.tests.RemoveItemCarTest">
+      <class name="aaa.bbb.FinalProject.tests.AddItemToCartTest">
         <methods>
-          <include name="f"/>
           <include name="afterClass"/>
+          <include name="f"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- aaa.bbb.FinalProject.tests.RemoveItemCarTest -->
+      </class> <!-- aaa.bbb.FinalProject.tests.AddItemToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

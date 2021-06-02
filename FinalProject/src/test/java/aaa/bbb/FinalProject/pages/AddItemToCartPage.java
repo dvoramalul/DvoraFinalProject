@@ -30,8 +30,7 @@ public class AddItemToCartPage extends BasePage{
 			selectTopMenu("פירות יבשים");
 			Thread.sleep(2000);
 			Reporter.reportStep(ReporterStatus.INFO, "Items category was selected");
-			WebElement Itemt = selectTopMenu("אגס טבעי מיובש ללא תוספת סוכר");
-			Itemt.click();
+			selectTopMenu("אגס טבעי מיובש ללא תוספת סוכר");
 			Reporter.reportStep(ReporterStatus.INFO, "Item was selected");
             Thread.sleep(2000);
 			WebElement plusItemBtn = driver.findElement(plusButtonLocator);

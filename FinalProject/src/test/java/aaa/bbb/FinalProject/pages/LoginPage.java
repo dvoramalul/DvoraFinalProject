@@ -29,10 +29,10 @@ public class LoginPage extends BasePage{
 			WebElement connectButton= driver.findElement(connectButtonLocator);
 			connectButton.click();
 			WebElement nameField= driver.findElement(nameFieldLocator);
-			nameField.sendKeys("rt@yahoo.com");
+			nameField.sendKeys("rtyiyui@yahoo.com");
 			driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 			WebElement emailField= driver.findElement(emailFieldLoginLocator);
-			emailField.sendKeys("A123a444");
+			emailField.sendKeys("A123a4494");
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			WebElement submitButton = driver.findElement(submitButtonLocator);
 			submitButton.click();
@@ -50,7 +50,7 @@ public class LoginPage extends BasePage{
 	}
 
 
-	//locators
+	
 	public void signUp() {
 
 		try {
@@ -70,13 +70,13 @@ public class LoginPage extends BasePage{
 			lastNameButtonn.sendKeys("Levi");
 
 			WebElement emailField = driver.findElement(emailFieldSignUpLocator);
-			emailField.sendKeys("rt@yahoo.com");
+			emailField.sendKeys("rtyiyui@yahoo.com");
 
 			WebElement passwordButton = driver.findElement(passwordButtonLocator);
-			passwordButton.sendKeys("A123a444");
+			passwordButton.sendKeys("A123a4494");
 
 			WebElement confirmPassButton = driver.findElement(By.xpath("//input[@name='confirm_pass']"));
-			confirmPassButton.sendKeys("A123a444");
+			confirmPassButton.sendKeys("A123a4494");
 			Reporter.reportStep(ReporterStatus.INFO, "Customer filled the detailes for signup to the online market ");
 
 			WebElement signUpbtn = driver.findElement(confirmPasswordButtonLocator);

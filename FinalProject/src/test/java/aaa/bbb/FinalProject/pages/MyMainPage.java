@@ -9,7 +9,7 @@ import aaa.bbb.FinalProject.utils.Reporter;
 public class MyMainPage extends BasePage{
 
 	By fullNameFieldLocator = By.xpath("//input[@id='form-field-field_1']");
-	By emailFieldLocator = By.xpath("//input[@name='form_fields[email]']");
+	By emailFieldLocator = By.xpath("(//input[@name='form_fields[email]'])[2]");
 	By submitButtonLoctor = By.xpath("(//span[@class='elementor-button-text'])[2]");
 
 	public MyMainPage(WebDriver driver) {
